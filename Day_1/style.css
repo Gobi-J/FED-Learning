@@ -110,9 +110,8 @@ body{
     }
     .review{
         margin-right: 0;
-    }
-    .review:nth-child(3){
-        margin-bottom: 100px;
+        position: static;
+        margin-bottom: 10px;
     }
 }
 
@@ -126,8 +125,8 @@ body{
     .rate{
         flex-direction: column;
         width: 100%;
-        margin-left: 0;
-        padding: 5px 0;
+        /* margin-left: 0; */
+        padding: 5px 0; 
     }
     .rating{
         margin-left: 0;
@@ -143,6 +142,6 @@ body{
         margin-right: 0;
     }
     .review:nth-child(3){
-        margin-right: 0;
+        /* margin-right: 0; */
     }
 }
