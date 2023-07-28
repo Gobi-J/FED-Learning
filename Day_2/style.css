@@ -45,6 +45,7 @@ body{
     border-radius: 30px;
     border: none;
     background-color:white;
+    font-weight: 600;
     box-shadow: 5px 5px 10px #222;
     cursor: pointer;
     transition: color .3s ;
@@ -52,15 +53,17 @@ body{
 .social{
     text-align: right;
     margin-right: 5%;
-    position: static;
 }
 .social i{
+    text-align: center;
     cursor: pointer;
     border-radius: 50%;
     color: white;
     border: 1px solid white;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 8px;
+    width: 15px;
+    height: 15px;
     transition: color .3s;
 }
 .right button:hover{
@@ -111,6 +114,7 @@ i:hover{
         width: 100px;
     }
     .right button{
-        font-size: medium;
+        width: 80%;
+        font-size:16px;
     }
 }
