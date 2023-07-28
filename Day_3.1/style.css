@@ -37,6 +37,10 @@ body{
     width: 450px;
     background-color: white;
     border-radius: 20px;
+    transition: box-shadow .2s;
+}
+.hero:hover{
+    box-shadow: 5px 5px 20px #555, -5px -5px 20px #555;
 }
 img{
     border-top-left-radius: 20px;
